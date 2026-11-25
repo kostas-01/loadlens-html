@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest a new check, finding, report section or option
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like the report to show or do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful?
+      description: The decision it would help you make, or the question it would answer.

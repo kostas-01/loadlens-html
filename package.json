@@ -1,0 +1,82 @@
+{
+  "name": "loadlens-html",
+  "version": "1.0.0",
+  "description": "HTML report generator for Artillery load tests: a self-contained Artillery HTML report with pass/fail verdict, SLO checks, Core Web Vitals and a metrics explorer. Works as an Artillery plugin or a CLI for report.json. Independent community project.",
+  "author": "kostas-01",
+  "license": "MIT",
+  "homepage": "https://github.com/kostas-01/loadlens-html#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostas-01/loadlens-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kostas-01/loadlens-html/issues"
+  },
+  "keywords": [
+    "artillery",
+    "artillery-plugin",
+    "artillery-report",
+    "artillery-html-report",
+    "artillery-reporter",
+    "artillery-html",
+    "artillery-playwright",
+    "html-report",
+    "html-reporter",
+    "report",
+    "reporter",
+    "load-testing",
+    "load-test-report",
+    "performance-testing",
+    "performance-report",
+    "stress-testing",
+    "web-vitals",
+    "core-web-vitals",
+    "playwright",
+    "slo",
+    "ci"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "loadlens-html": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.map",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test",
+    "example": "npm run build && node dist/cli.js examples/sample-report.json -o examples/report.html --thresholds examples/thresholds.json",
+    "configure": "node scripts/configure.mjs",
+    "prepublishOnly": "node scripts/check-metadata.mjs && npm test",
+    "preversion": "npm test",
+    "version": "node scripts/release-changelog.mjs && git add CHANGELOG.md",
+    "postversion": "git push --follow-tags",
+    "release:patch": "npm version patch",
+    "release:minor": "npm version minor",
+    "release:major": "npm version major"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "typescript": "^5.9.3"
+  }
+}

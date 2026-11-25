@@ -1,0 +1,10 @@
+{
+  "failureRate": { "warn": 0, "fail": 1 },
+  "webVitals": true,
+  "fail5xx": true,
+  "checks": [
+    { "label": "Session length p95", "metric": "vusers.session_length", "stat": "p95", "warn": 5000, "fail": 8000 },
+    { "label": "TTFB p95 (all pages)", "metric": "browser.page.TTFB.*", "stat": "p95", "warn": 200, "fail": 500 },
+    { "label": "Recorded errors", "metric": "errors.*", "type": "counter", "fail": 0 }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in the report or the plugin is wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what the report or CLI did instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: How do you use it?
+      options: [Artillery plugin, CLI, Programmatic API]
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Engine
+      options: [HTTP, Playwright, Both, Other]
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: loadlens-html 1.0.0, Artillery 2.0.34, Node 22
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Test script or report.json
+      description: A minimal test script or report.json that reproduces it. Remove hostnames, tokens and other sensitive values.
+      render: yaml

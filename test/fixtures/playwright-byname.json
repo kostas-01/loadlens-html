@@ -1,0 +1,382 @@
+{
+  "aggregate": {
+    "period": 1795614590000,
+    "counters": {
+      "vusers.created_by_name.Click nav tabs": 6,
+      "vusers.created": 6,
+      "browser.page.codes.200": 60,
+      "browser.http_requests": 60,
+      "vusers.failed": 0,
+      "vusers.completed": 6
+    },
+    "rates": {},
+    "firstCounterAt": 1795614585872,
+    "firstHistogramAt": 1795614586246,
+    "lastCounterAt": 1795614594076,
+    "lastHistogramAt": 1795614594076,
+    "firstMetricAt": 1795614585872,
+    "lastMetricAt": 1795614594076,
+    "summaries": {
+      "browser.page.TTFB.Click nav tabs": {
+        "min": 31.7,
+        "max": 209.5,
+        "count": 30,
+        "mean": 96.3,
+        "p50": 68.7,
+        "median": 68.7,
+        "p75": 130.3,
+        "p90": 206.5,
+        "p95": 210.6,
+        "p99": 210.6,
+        "p999": 210.6
+      },
+      "browser.page.FCP.Click nav tabs": {
+        "min": 64,
+        "max": 256,
+        "count": 30,
+        "mean": 137.5,
+        "p50": 104.6,
+        "median": 104.6,
+        "p75": 172.5,
+        "p90": 247.2,
+        "p95": 247.2,
+        "p99": 252.2,
+        "p999": 252.2
+      },
+      "browser.page.LCP.Click nav tabs": {
+        "min": 64,
+        "max": 256,
+        "count": 28,
+        "mean": 134.3,
+        "p50": 104.6,
+        "median": 104.6,
+        "p75": 169,
+        "p90": 247.2,
+        "p95": 247.2,
+        "p99": 252.2,
+        "p999": 252.2
+      },
+      "vusers.session_length": {
+        "min": 3205.2,
+        "max": 3445.8,
+        "count": 6,
+        "mean": 3327.1,
+        "p50": 3328.3,
+        "median": 3328.3,
+        "p75": 3328.3,
+        "p90": 3328.3,
+        "p95": 3328.3,
+        "p99": 3328.3,
+        "p999": 3328.3
+      }
+    },
+    "histograms": {
+      "browser.page.TTFB.Click nav tabs": {
+        "min": 31.7,
+        "max": 209.5,
+        "count": 30,
+        "mean": 96.3,
+        "p50": 68.7,
+        "median": 68.7,
+        "p75": 130.3,
+        "p90": 206.5,
+        "p95": 210.6,
+        "p99": 210.6,
+        "p999": 210.6
+      },
+      "browser.page.FCP.Click nav tabs": {
+        "min": 64,
+        "max": 256,
+        "count": 30,
+        "mean": 137.5,
+        "p50": 104.6,
+        "median": 104.6,
+        "p75": 172.5,
+        "p90": 247.2,
+        "p95": 247.2,
+        "p99": 252.2,
+        "p999": 252.2
+      },
+      "browser.page.LCP.Click nav tabs": {
+        "min": 64,
+        "max": 256,
+        "count": 28,
+        "mean": 134.3,
+        "p50": 104.6,
+        "median": 104.6,
+        "p75": 169,
+        "p90": 247.2,
+        "p95": 247.2,
+        "p99": 252.2,
+        "p999": 252.2
+      },
+      "vusers.session_length": {
+        "min": 3205.2,
+        "max": 3445.8,
+        "count": 6,
+        "mean": 3327.1,
+        "p50": 3328.3,
+        "median": 3328.3,
+        "p75": 3328.3,
+        "p90": 3328.3,
+        "p95": 3328.3,
+        "p99": 3328.3,
+        "p999": 3328.3
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "period": "1795614580000",
+      "counters": {
+        "vusers.created_by_name.Click nav tabs": 5,
+        "vusers.created": 5,
+        "browser.page.codes.200": 35,
+        "browser.http_requests": 34,
+        "vusers.failed": 0,
+        "vusers.completed": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1795614585872,
+      "firstHistogramAt": 1795614586246,
+      "lastCounterAt": 1795614589998,
+      "lastHistogramAt": 1795614589987,
+      "firstMetricAt": 1795614585872,
+      "lastMetricAt": 1795614589998,
+      "summaries": {
+        "browser.page.TTFB.Click nav tabs": {
+          "min": 31.7,
+          "max": 208.9,
+          "count": 16,
+          "mean": 97.5,
+          "p50": 68.7,
+          "median": 68.7,
+          "p75": 130.3,
+          "p90": 206.5,
+          "p95": 206.5,
+          "p99": 206.5,
+          "p999": 206.5
+        },
+        "browser.page.FCP.Click nav tabs": {
+          "min": 64,
+          "max": 252,
+          "count": 16,
+          "mean": 137.5,
+          "p50": 111.1,
+          "median": 111.1,
+          "p75": 169,
+          "p90": 232.8,
+          "p95": 247.2,
+          "p99": 247.2,
+          "p999": 247.2
+        },
+        "browser.page.LCP.Click nav tabs": {
+          "min": 64,
+          "max": 252,
+          "count": 14,
+          "mean": 126.3,
+          "p50": 104.6,
+          "median": 104.6,
+          "p75": 153,
+          "p90": 169,
+          "p95": 232.8,
+          "p99": 232.8,
+          "p999": 232.8
+        },
+        "vusers.session_length": {
+          "min": 3445.8,
+          "max": 3445.8,
+          "count": 1,
+          "mean": 3445.8,
+          "p50": 3464.1,
+          "median": 3464.1,
+          "p75": 3464.1,
+          "p90": 3464.1,
+          "p95": 3464.1,
+          "p99": 3464.1,
+          "p999": 3464.1
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.Click nav tabs": {
+          "min": 31.7,
+          "max": 208.9,
+          "count": 16,
+          "mean": 97.5,
+          "p50": 68.7,
+          "median": 68.7,
+          "p75": 130.3,
+          "p90": 206.5,
+          "p95": 206.5,
+          "p99": 206.5,
+          "p999": 206.5
+        },
+        "browser.page.FCP.Click nav tabs": {
+          "min": 64,
+          "max": 252,
+          "count": 16,
+          "mean": 137.5,
+          "p50": 111.1,
+          "median": 111.1,
+          "p75": 169,
+          "p90": 232.8,
+          "p95": 247.2,
+          "p99": 247.2,
+          "p999": 247.2
+        },
+        "browser.page.LCP.Click nav tabs": {
+          "min": 64,
+          "max": 252,
+          "count": 14,
+          "mean": 126.3,
+          "p50": 104.6,
+          "median": 104.6,
+          "p75": 153,
+          "p90": 169,
+          "p95": 232.8,
+          "p99": 232.8,
+          "p999": 232.8
+        },
+        "vusers.session_length": {
+          "min": 3445.8,
+          "max": 3445.8,
+          "count": 1,
+          "mean": 3445.8,
+          "p50": 3464.1,
+          "median": 3464.1,
+          "p75": 3464.1,
+          "p90": 3464.1,
+          "p95": 3464.1,
+          "p99": 3464.1,
+          "p999": 3464.1
+        }
+      }
+    },
+    {
+      "period": "1795614590000",
+      "counters": {
+        "browser.page.codes.200": 25,
+        "browser.http_requests": 26,
+        "vusers.failed": 0,
+        "vusers.completed": 5,
+        "vusers.created_by_name.Click nav tabs": 1,
+        "vusers.created": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1795614590023,
+      "firstHistogramAt": 1795614590038,
+      "lastCounterAt": 1795614594076,
+      "lastHistogramAt": 1795614594076,
+      "firstMetricAt": 1795614590023,
+      "lastMetricAt": 1795614594076,
+      "summaries": {
+        "browser.page.FCP.Click nav tabs": {
+          "min": 68,
+          "max": 256,
+          "count": 14,
+          "mean": 137.4,
+          "p50": 100.5,
+          "median": 100.5,
+          "p75": 172.5,
+          "p90": 237.5,
+          "p95": 247.2,
+          "p99": 247.2,
+          "p999": 247.2
+        },
+        "browser.page.TTFB.Click nav tabs": {
+          "min": 33.5,
+          "max": 209.5,
+          "count": 14,
+          "mean": 94.9,
+          "p50": 68.7,
+          "median": 68.7,
+          "p75": 130.3,
+          "p90": 206.5,
+          "p95": 210.6,
+          "p99": 210.6,
+          "p999": 210.6
+        },
+        "browser.page.LCP.Click nav tabs": {
+          "min": 68,
+          "max": 256,
+          "count": 14,
+          "mean": 142.3,
+          "p50": 100.5,
+          "median": 100.5,
+          "p75": 172.5,
+          "p90": 247.2,
+          "p95": 247.2,
+          "p99": 247.2,
+          "p999": 247.2
+        },
+        "vusers.session_length": {
+          "min": 3205.2,
+          "max": 3335.7,
+          "count": 5,
+          "mean": 3303.3,
+          "p50": 3328.3,
+          "median": 3328.3,
+          "p75": 3328.3,
+          "p90": 3328.3,
+          "p95": 3328.3,
+          "p99": 3328.3,
+          "p999": 3328.3
+        }
+      },
+      "histograms": {
+        "browser.page.FCP.Click nav tabs": {
+          "min": 68,
+          "max": 256,
+          "count": 14,
+          "mean": 137.4,
+          "p50": 100.5,
+          "median": 100.5,
+          "p75": 172.5,
+          "p90": 237.5,
+          "p95": 247.2,
+          "p99": 247.2,
+          "p999": 247.2
+        },
+        "browser.page.TTFB.Click nav tabs": {
+          "min": 33.5,
+          "max": 209.5,
+          "count": 14,
+          "mean": 94.9,
+          "p50": 68.7,
+          "median": 68.7,
+          "p75": 130.3,
+          "p90": 206.5,
+          "p95": 210.6,
+          "p99": 210.6,
+          "p999": 210.6
+        },
+        "browser.page.LCP.Click nav tabs": {
+          "min": 68,
+          "max": 256,
+          "count": 14,
+          "mean": 142.3,
+          "p50": 100.5,
+          "median": 100.5,
+          "p75": 172.5,
+          "p90": 247.2,
+          "p95": 247.2,
+          "p99": 247.2,
+          "p999": 247.2
+        },
+        "vusers.session_length": {
+          "min": 3205.2,
+          "max": 3335.7,
+          "count": 5,
+          "mean": 3303.3,
+          "p50": 3328.3,
+          "median": 3328.3,
+          "p75": 3328.3,
+          "p90": 3328.3,
+          "p95": 3328.3,
+          "p99": 3328.3,
+          "p999": 3328.3
+        }
+      }
+    }
+  ]
+}

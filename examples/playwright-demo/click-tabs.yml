@@ -1,0 +1,25 @@
+# Demo: clicks through nav tabs (full page loads) and SPA tabs (client-side routes).
+#   node examples/playwright-demo/site.js &          # starts the demo site on :8101 (+ "third-party" iframe on :8102)
+#   npx artillery run examples/playwright-demo/click-tabs.yml
+config:
+  target: http://127.0.0.1:8101
+  phases:
+    - duration: 10
+      arrivalRate: 1
+  processor: ./flows.js
+  engines:
+    playwright:
+      # Try each of these to see how the report adapts:
+      # showAllPageMetrics: true   # include the cross-origin iframe ("Other hosts")
+      # extendedMetrics: true      # DOM interactive, page views, JS heap
+      # aggregateByName: true      # one row per scenario instead of per page
+      launchOptions:
+        headless: true
+  plugins:
+    html:
+      scope: "loadlens-"
+      output: reports/click-tabs-{timestamp}.html
+scenarios:
+  - name: Click nav tabs
+    engine: playwright
+    testFunction: clickTabs

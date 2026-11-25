@@ -1,0 +1,328 @@
+{
+  "aggregate": {
+    "period": 1795614600000,
+    "counters": {
+      "vusers.created_by_name.Assertion check": 6,
+      "vusers.created": 6,
+      "browser.page.codes.200": 12,
+      "browser.http_requests": 12,
+      "errors.pw_failed_assertion.toHaveText": 6,
+      "vusers.failed": 6
+    },
+    "rates": {},
+    "firstCounterAt": 1795614598895,
+    "firstHistogramAt": 1795614599317,
+    "lastCounterAt": 1795614605154,
+    "lastHistogramAt": 1795614605157,
+    "firstMetricAt": 1795614598895,
+    "lastMetricAt": 1795614605157,
+    "summaries": {
+      "browser.page.FCP.http://127.0.0.1:8101/news": {
+        "min": 152,
+        "max": 164,
+        "count": 6,
+        "mean": 158,
+        "p50": 159.2,
+        "median": 159.2,
+        "p75": 159.2,
+        "p90": 159.2,
+        "p95": 159.2,
+        "p99": 159.2,
+        "p999": 159.2
+      },
+      "browser.page.TTFB.http://127.0.0.1:8101/news": {
+        "min": 121.2,
+        "max": 124.7,
+        "count": 6,
+        "mean": 123.1,
+        "p50": 122.7,
+        "median": 122.7,
+        "p75": 122.7,
+        "p90": 122.7,
+        "p95": 122.7,
+        "p99": 122.7,
+        "p999": 122.7
+      },
+      "browser.page.CLS.http://127.0.0.1:8101/news": {
+        "min": 0,
+        "max": 0,
+        "count": 6,
+        "mean": 0,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "browser.page.LCP.http://127.0.0.1:8101/news": {
+        "min": 152,
+        "max": 164,
+        "count": 6,
+        "mean": 158,
+        "p50": 159.2,
+        "median": 159.2,
+        "p75": 159.2,
+        "p90": 159.2,
+        "p95": 159.2,
+        "p99": 159.2,
+        "p999": 159.2
+      }
+    },
+    "histograms": {
+      "browser.page.FCP.http://127.0.0.1:8101/news": {
+        "min": 152,
+        "max": 164,
+        "count": 6,
+        "mean": 158,
+        "p50": 159.2,
+        "median": 159.2,
+        "p75": 159.2,
+        "p90": 159.2,
+        "p95": 159.2,
+        "p99": 159.2,
+        "p999": 159.2
+      },
+      "browser.page.TTFB.http://127.0.0.1:8101/news": {
+        "min": 121.2,
+        "max": 124.7,
+        "count": 6,
+        "mean": 123.1,
+        "p50": 122.7,
+        "median": 122.7,
+        "p75": 122.7,
+        "p90": 122.7,
+        "p95": 122.7,
+        "p99": 122.7,
+        "p999": 122.7
+      },
+      "browser.page.CLS.http://127.0.0.1:8101/news": {
+        "min": 0,
+        "max": 0,
+        "count": 6,
+        "mean": 0,
+        "p50": 0,
+        "median": 0,
+        "p75": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0,
+        "p999": 0
+      },
+      "browser.page.LCP.http://127.0.0.1:8101/news": {
+        "min": 152,
+        "max": 164,
+        "count": 6,
+        "mean": 158,
+        "p50": 159.2,
+        "median": 159.2,
+        "p75": 159.2,
+        "p90": 159.2,
+        "p95": 159.2,
+        "p99": 159.2,
+        "p999": 159.2
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "period": "1795614590000",
+      "counters": {
+        "vusers.created_by_name.Assertion check": 2,
+        "vusers.created": 2,
+        "browser.page.codes.200": 2,
+        "browser.http_requests": 2
+      },
+      "rates": {},
+      "firstCounterAt": 1795614598895,
+      "firstHistogramAt": 1795614599317,
+      "lastCounterAt": 1795614599894,
+      "lastHistogramAt": 1795614599331,
+      "firstMetricAt": 1795614598895,
+      "lastMetricAt": 1795614599894,
+      "summaries": {
+        "browser.page.FCP.http://127.0.0.1:8101/news": {
+          "min": 160,
+          "max": 160,
+          "count": 1,
+          "mean": 160,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.TTFB.http://127.0.0.1:8101/news": {
+          "min": 123.8,
+          "max": 123.8,
+          "count": 1,
+          "mean": 123.8,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 122.7,
+          "p90": 122.7,
+          "p95": 122.7,
+          "p99": 122.7,
+          "p999": 122.7
+        }
+      },
+      "histograms": {
+        "browser.page.FCP.http://127.0.0.1:8101/news": {
+          "min": 160,
+          "max": 160,
+          "count": 1,
+          "mean": 160,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.TTFB.http://127.0.0.1:8101/news": {
+          "min": 123.8,
+          "max": 123.8,
+          "count": 1,
+          "mean": 123.8,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 122.7,
+          "p90": 122.7,
+          "p95": 122.7,
+          "p99": 122.7,
+          "p999": 122.7
+        }
+      }
+    },
+    {
+      "period": "1795614600000",
+      "counters": {
+        "browser.page.codes.200": 10,
+        "browser.http_requests": 10,
+        "errors.pw_failed_assertion.toHaveText": 6,
+        "vusers.failed": 6,
+        "vusers.created_by_name.Assertion check": 4,
+        "vusers.created": 4
+      },
+      "rates": {},
+      "firstCounterAt": 1795614600096,
+      "firstHistogramAt": 1795614600147,
+      "lastCounterAt": 1795614605154,
+      "lastHistogramAt": 1795614605157,
+      "firstMetricAt": 1795614600096,
+      "lastMetricAt": 1795614605157,
+      "summaries": {
+        "browser.page.TTFB.http://127.0.0.1:8101/news": {
+          "min": 121.2,
+          "max": 124.7,
+          "count": 5,
+          "mean": 122.9,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 122.7,
+          "p90": 122.7,
+          "p95": 122.7,
+          "p99": 122.7,
+          "p999": 122.7
+        },
+        "browser.page.FCP.http://127.0.0.1:8101/news": {
+          "min": 152,
+          "max": 164,
+          "count": 5,
+          "mean": 157.6,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.CLS.http://127.0.0.1:8101/news": {
+          "min": 0,
+          "max": 0,
+          "count": 6,
+          "mean": 0,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "browser.page.LCP.http://127.0.0.1:8101/news": {
+          "min": 152,
+          "max": 164,
+          "count": 6,
+          "mean": 158,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        }
+      },
+      "histograms": {
+        "browser.page.TTFB.http://127.0.0.1:8101/news": {
+          "min": 121.2,
+          "max": 124.7,
+          "count": 5,
+          "mean": 122.9,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 122.7,
+          "p90": 122.7,
+          "p95": 122.7,
+          "p99": 122.7,
+          "p999": 122.7
+        },
+        "browser.page.FCP.http://127.0.0.1:8101/news": {
+          "min": 152,
+          "max": 164,
+          "count": 5,
+          "mean": 157.6,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "browser.page.CLS.http://127.0.0.1:8101/news": {
+          "min": 0,
+          "max": 0,
+          "count": 6,
+          "mean": 0,
+          "p50": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0,
+          "p999": 0
+        },
+        "browser.page.LCP.http://127.0.0.1:8101/news": {
+          "min": 152,
+          "max": 164,
+          "count": 6,
+          "mean": 158,
+          "p50": 159.2,
+          "median": 159.2,
+          "p75": 159.2,
+          "p90": 159.2,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        }
+      }
+    }
+  ]
+}
